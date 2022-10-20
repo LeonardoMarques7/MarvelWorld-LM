@@ -1,0 +1,16 @@
+Projeto:
+
+1) Website com tema livre
+2) Possuir 6 páginas no mínimo 
+
+Recursos que seu site deve ter:
+- layout grid - feito
+- listas costumizadas - feito
+- imagens costumizadas - feito
+- Bootstrap 5.2 - feito
+- Tabela - feito
+- Alerta - feito
+- Badges - feito
+- Breadcrumb - feito
+- Button - feito
+- Card - feito

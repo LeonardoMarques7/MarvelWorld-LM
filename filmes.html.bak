@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Marvel World</title>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link href="css/style.css" rel="stylesheet">
+
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
+	<link rel="icon" href="imagens/logobs3.png">
+
+	<style>
+		.nav-link {
+			color: white;
+		}
+
+		.nav-link:hover {
+			transition: 1.5s;
+			color: rgb(206, 0, 0);
+		}
+
+		body {
+			background-color: #000000;
+		}
+
+
+		h5 {
+			color: white;
+			font-family: serif;
+			font-size: 25px;
+		}
+
+		h2 {
+			color: white;
+			font-family: serif;
+			font-size: 40px;
+		}
+
+		h4 {
+			color: white;
+			font-family: monospace;
+			font-size: 20px;
+		}
+
+		p {
+			color: white;
+			font-family: monospace;
+			font-size: 17px;
+		}
+
+		body {
+			background-color: #000000;
+		}
+		.card {
+			margin-left: 12px;
+			box-shadow: 1px 2px 2px rgb(66, 6, 6);
+		}
+		navbar {
+			color: white;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-sm bg-dark">
+		</br> </br>
+		<div class="container-fluid">
+			<img src="imagens/logobs.png" height="100" alt="" loading="lazy" />
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="navbar-nav me-auto">
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="filmes.html">Filmes</a>
+					</li>
+
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="series.html">Séries</a>
+					</li>
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="personagens.html">Personagens</a>
+					</li>
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="quadrinhos.html">Quadrinhos</a>
+					</li>
+					&nbsp; &nbsp; &nbsp; &nbsp;
+					<li class="nav-item">
+						<a class="nav-link" href="sobre.html">Sobre Nós</a>
+					</li>
+				</ul>
+
+				<form class="d-flex">
+					<input class="form-control me-2 border-danger" type="text" placeholder="Search">
+					<button class="btn btn-danger" type="button">Search</button>
+				</form>
+				&nbsp; &nbsp; &nbsp; &nbsp;
+			</div>
+		</div>
+		</div>
+	</nav>
+	
+	<div class="alert alert-danger" role="alert">
+		Aproveite para conhecer mais alguns filmes desse universo!
+	</div>
+
+	<h6>
+		<div class="alert alert-dark" role="alert" style="height:50px">
+			<ol class="breadcrumb">
+			  <li class="breadcrumb-item">Home</li>
+			  <li class="breadcrumb-item">Filmes</li>
+			  <li class="breadcrumb-item">Séries</li>
+			  <li class="breadcrumb-item">Personagens</li>
+			  <li class="breadcrumb-item">Quadrinhos</li>
+			  <li class="breadcrumb-item"><a href="sobre.html">Sobre Nós</a></li>
+			</ol>
+		  </div>
+	</h6>
+
+	<div class="d-flex p-4">
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/eternos.jpg" alt="Eternos">
+			<div class="card-body">
+			  	<h5 class="card-title">Eternos</h5>
+			  	<p class="card-text">Os Eternos são uma raça de seres imortais</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 5.000 anos a.C</li>
+				<li class="list-group-item">Data: 4 de Novembro de 2021</li>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/capitão.jpg" alt="Capitão">
+			<div class="card-body">
+			  	<h5 class="card-title">Capitão América: O Primeiro Vingador</h5>
+			  	<p class="card-text">Steve Rogers é um jovem que aceitou ser voluntário em experiências para criar um supersoldado.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no filme: 1942-1945</li>
+				<li class="list-group-item">Data: 19 de julho de 2011</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/capitã.jpg" alt="Capitã">
+			<div class="card-body">
+			  	<h5 class="card-title">Capitã Marvel</h5>
+			  	<p class="card-text"> O filme retrata um conflito galáctico entre duas civilizações alienígenas.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 1990</li>
+				<li class="list-group-item">Data: 7 de março de 2019</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/ferro.jpg" alt="Homem">
+			<div class="card-body">
+			  	<h5 class="card-title">Homem de Ferro 1</h5>
+			  	<p class="card-text">O filme trata sobre o gênio, bilionário, playboy e filantropo Tony Stark.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 1970</li>
+				<li class="list-group-item">Data: 30 de abril de 2008</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/hulk.jpg" alt="Card image cap">
+			<div class="card-body">
+			  	<h5 class="card-title">O incrível Hulk</h5>
+			  	<p class="card-text">Hulk é um selvagem e poderoso alter ego do Dr. Robert Bruce Banner, um cientista que foi atingido por raios.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 2005-2009</li>
+				<li class="list-group-item">Data: 13 de junho de 2008</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	<div class="d-flex p-4">
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/homem2.jpg" alt="Card image cap">
+			<div class="card-body">
+			  	<h5 class="card-title">Homem de Ferro 2</h5>
+			  	<p class="card-text">Após confessar ao mundo ser o Homem de Ferro, Tony Stark passa a ser alvo por seu poderoso traje.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 2010</li>
+				<li class="list-group-item">Data: 30 de abril de 2010</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/vingadores (2).jpg" alt="Vingadores">
+			<div class="card-body">
+			  	<h5 class="card-title">Os Vingadores</h5>
+			  	<p class="card-text">Apresenta os seis membros iniciais da famosa equipe de super-heróis.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 2012</li>
+				<li class="list-group-item">Data: 27 de abril de 2012</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/homem3 (2).jpg" alt="Card image cap">
+			<div class="card-body">
+			  	<h5 class="card-title">Homem de Ferro 3</h5>
+			  	<p class="card-text">No réveillon de 1999, Tony Stark conhece a bióloga Maya Hansen e o cientista Aldrich Killian.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: Réveillon de 1999</li>
+				<li class="list-group-item">Data: 26 de abril de 2013</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/thor mundo sombrio (2).jpg" alt="Mundo Sombrio">
+			<div class="card-body">
+			  	<h5 class="card-title">Thor: O Mundo Sombrio</h5>
+			  	<p class="card-text">Convergência em que o limite entre os nove mundos é estreitado.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 2013</li>
+				<li class="list-group-item">Data: 8 de novembro de 2013</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/capitao2 (2).jpg" alt="Capitão 2">
+			<div class="card-body">
+			  	<h5 class="card-title">Capitão América 2: O Soldado Invernal</h5>
+			  	<p class="card-text">Steve rogers retorna para as telonas com o filme Capitão Amércia 2 Soldado Invernal</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 2023</li>
+				<li class="list-group-item">Data: 10 de abril de 2014</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="d-flex p-4">
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/ultron.jpg" alt="Card image cap">
+			<div class="card-body">
+			  	<h5 class="card-title">Vingadores: Era de Ultron</h5>
+			  	<p class="card-text">Ultron foge com o cetro para a base da Hidra, onde passa a utilizar os recursos da base de Strucker para evoluir.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 1968</li>
+				<li class="list-group-item">Data: 23 de abril de 2015</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/guerracivil.jpg" alt="Card image cap">
+			<div class="card-body">
+			  	<h5 class="card-title">Capitão América: Guerra Civil</h5>
+			  	<p class="card-text">Gira em torno da discussão a respeito da Lei de Registro de Super-Humanos, imposta pelo governo</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 2016</li>
+				<li class="list-group-item">Data: 11 de Abril de 2014</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/inifita.jpg" alt="Card image cap">
+			<div class="card-body">
+			  	<h5 class="card-title">Vingadores: Guerra Infinita</h5>
+			  	<p class="card-text">Em uma jornada cinematográfica sem precedentes que está sendo elaborada há dez anos e abrange todo o Universo</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 2017</li>
+				<li class="list-group-item">Data: 26 de abril de 2018</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="./imagens/ultimato.jpg" alt="Card image cap">
+			<div class="card-body">
+			  	<h5 class="card-title">Vingadores: Ultimato</h5>
+			  	<p class="card-text">O final épico da Saga do Infinito, os Vingadores enfrentam Thanos.</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 2018-2023</li>
+				<li class="list-group-item">Data: 25 de abril de 2019</li>
+				</ul>
+			</div>
+		</div>
+		<div class="card bg-dark" style="width: 18rem;">
+			<img class="card-img-top" src="imagens/foradecasa.jpg" alt="Card image cap">
+			<div class="card-body">
+			  	<h5 class="card-title">Homem-Aranha: Longe de Casa</h5>
+			  	<p class="card-text">Steve rogers retorna para as telonas com o filme Capitão Amércia 2 Soldado Invernal</p>
+				<ul class="list-group" style="padding-top: 2px;">				
+				<li class="list-group-item">Data no Filme: 1943 - 1945</li>
+				<li class="list-group-item">Data: 11 de Abril de 2014</li>
+				</ul>
+			</div>
+		</div>
+			
+			
+			
+	<footer>
+		<div class="mt-5 p-4 bg-dark text-white text-center">
+			<p>By: Léo & Manuum</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
